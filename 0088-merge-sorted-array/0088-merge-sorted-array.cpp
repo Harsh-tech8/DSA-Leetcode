@@ -5,13 +5,17 @@ public:
 
         while(i >= 0 && j >= 0){
             if (A[i] >= B[j]){
-                A[idx--] = A[i--];
+                A[idx] = A[i];
+                idx--;
+                i--;
             }else {
-                A[idx--] = B[j--];
+                A[idx] = B[j];
+                idx--;j--;
             }
         }
         while (j >= 0){
-            A[idx--] = B[j--];
+            A[idx] = B[j];
+            idx--;j--;
         }
     }
 };
