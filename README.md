@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0169-majority-element](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0169-majority-element) |
+| [0204-count-primes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0204-count-primes) |
 | [0238-product-of-array-except-self](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0050-powx-n) |
+| [0204-count-primes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0204-count-primes) |
 ## Recursion
 |  |
 | ------- |
@@ -98,4 +100,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0204-count-primes) |
+## Primality Test
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0204-count-primes) |
+## Sieve Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0204-count-primes) |
+## Prime Number Sieve
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
