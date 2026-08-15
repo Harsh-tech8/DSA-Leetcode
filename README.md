@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0011-container-with-most-water) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0053-maximum-subarray](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0053-maximum-subarray) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0169-majority-element) |
 ## Divide and Conquer
 |  |
