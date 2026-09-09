@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0018-4sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0046-permutations](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0054-spiral-matrix) |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0046-permutations](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0090-subsets-ii) |
