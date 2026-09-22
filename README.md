@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0704-binary-search) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
+| [2596-check-knight-tour-configuration](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/2596-check-knight-tour-configuration) |
 | [2965-find-missing-and-repeated-values](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 ## Prefix Sum
 |  |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0054-spiral-matrix) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
+| [2596-check-knight-tour-configuration](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/2596-check-knight-tour-configuration) |
 ## Enumeration
 |  |
 | ------- |
@@ -164,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [2596-check-knight-tour-configuration](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/2596-check-knight-tour-configuration) |
 | [2965-find-missing-and-repeated-values](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 ## Memoization
 |  |
@@ -193,4 +196,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0037-sudoku-solver) |
+## Depth-First Search
+|  |
+| ------- |
+| [2596-check-knight-tour-configuration](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/2596-check-knight-tour-configuration) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2596-check-knight-tour-configuration](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/2596-check-knight-tour-configuration) |
 <!---LeetCode Topics End-->
