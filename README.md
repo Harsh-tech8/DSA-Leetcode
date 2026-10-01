@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0020-valid-parentheses) |
+| [0155-min-stack](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0155-min-stack) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
 ## Simulation
 |  |
@@ -236,4 +237,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0020-valid-parentheses) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
