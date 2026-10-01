@@ -1,41 +1,48 @@
-class MinStack {
-public:
-    stack<pair<int,int>> s;
 
-    MinStack() {
-        
-    }
+
+class MinStack {
+private:
+    std::stack<long long> s;
+    long long minVal;
+
+public:
+    MinStack() {}
     
     void push(int val) {
-        if(s.empty()){
-            s.push({val,val});
-        }else{
-            int minval = min(val,s.top().second);
-            s.push({val,minval});
-
+        long long v = val;
+        if (s.empty()) {
+            minVal = v;
+            s.push(v);
+        } else if (v < minVal) {
+            // Push encoded marker value
+            s.push(2 * v - minVal);
+            minVal = v; // Update current minimum
+        } else {
+            s.push(v);
         }
-        
     }
     
     void pop() {
+        if (s.empty()) return;
+        
+        long long topVal = s.top();
         s.pop();
+        
+        // If topVal < minVal, it was an encoded checkpoint
+        if (topVal < minVal) {
+            minVal = 2 * minVal - topVal; // Restore previous minVal
+        }
     }
     
     int top() {
-        return s.top().first;
-
+        long long topVal = s.top();
+        if (topVal < minVal) {
+            return (int)minVal; // Actual inserted value is stored in minVal
+        }
+        return (int)topVal;
     }
     
     int getMin() {
-        return s.top().second;
+        return (int)minVal;
     }
 };
-
-/**
- * Your MinStack object will be instantiated and called as such:
- * MinStack* obj = new MinStack();
- * obj->push(value);
- * obj->pop();
- * int param_3 = obj->top();
- * int param_4 = obj->getMin();
- */
