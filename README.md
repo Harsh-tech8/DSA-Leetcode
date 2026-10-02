@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0204-count-primes) |
 | [0238-product-of-array-except-self](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0503-next-greater-element-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0704-binary-search) |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0020-valid-parentheses) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0155-min-stack](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0155-min-stack) |
+| [0503-next-greater-element-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0503-next-greater-element-ii) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
 ## Simulation
 |  |
@@ -247,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
+| [0503-next-greater-element-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0503-next-greater-element-ii) |
 ## Range Minimum/Maximum Query
 |  |
 | ------- |
