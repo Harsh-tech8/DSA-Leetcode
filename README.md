@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0001-two-sum) |
 | [0037-sudoku-solver](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0037-sudoku-solver) |
 | [0142-linked-list-cycle-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0169-majority-element) |
 | [0560-subarray-sum-equals-k](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [2965-find-missing-and-repeated-values](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/2965-find-missing-and-repeated-values) |
@@ -226,12 +227,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0024-swap-nodes-in-pairs](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0142-linked-list-cycle-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0206-reverse-linked-list) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0876-middle-of-the-linked-list) |
 ## Doubly-Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0146-lru-cache) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 ## Floyd's Cycle Finding Algorithm
 |  |
@@ -244,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0155-min-stack) |
 ## Monotonic Stack
 |  |
