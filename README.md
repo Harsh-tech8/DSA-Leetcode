@@ -1,72 +1,82 @@
-<!-- Animated Header Banner -->
+<!-- Animated Modern Header Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=DSA%20&%20LeetCode%20Command%20Center&fontSize=32&animation=fadeIn&fontColor=38BDF8&fontAlignY=35&desc=Optimized%20Solutions%20•%20Clean%20Code%20•%20Interview%20Ready&descSize=14&descAlignY=62" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,30&height=220&section=header&text=DSA%20%26%20LeetCode%20Mastery&fontSize=34&animation=fadeIn&fontColor=38BDF8&fontAlignY=38&desc=%E2%9A%A1%20Optimized%20Data%20Structures%20%26%20Algorithms%20Solutions&descSize=15&descAlignY=62" width="100%"/>
 </p>
 
-<!-- Live Typing SVG Effect -->
+<!-- Typing Dynamic Text -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=20&duration=3500&pause=1000&color=38BDF8&center=true&vCenter=true&width=550&height=45&lines=Cracking+Coding+Interviews+Everyday;Building+Rock-Solid+Algorithmic+Logic;Mastering+Data+Structures+%26+Algorithms" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=550&height=45&lines=Building+Optimal+Algorithmic+Logic;Cracking+Product-Based+Company+Interviews;100%25+Clean+Code+%2B+Detailed+Complexity+Analysis" alt="Typing SVG" />
   </a>
 </p>
 
 ---
 
-<!-- Tech Stack & Platform Badges -->
+<!-- Animated Shields & Badges -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Language-C++%20%7C%20Python%20%7C%20Java-0f172a?style=for-the-badge&logo=codeforces&logoColor=38BDF8&color=0f172a" />
+  <img src="https://img.shields.io/badge/Language-C++17%20%7C%20Python3%20%7C%20Java-0f172a?style=for-the-badge&logo=cplusplus&logoColor=38BDF8&color=0f172a" />
   <img src="https://img.shields.io/badge/Platform-LeetCode-0f172a?style=for-the-badge&logo=leetcode&logoColor=FFA116&color=0f172a" />
   <img src="https://img.shields.io/badge/Focus-Time%20%26%20Space%20Optimization-0f172a?style=for-the-badge&logo=opsgenie&logoColor=22c55e&color=0f172a" />
   <img src="https://img.shields.io/github/stars/Harsh-tech8/DSA-Leetcode?style=for-the-badge&logo=github&color=0f172a&logoColor=white" />
+  <img src="https://img.shields.io/github/last-commit/Harsh-tech8/DSA-Leetcode?style=for-the-badge&logo=git&color=0f172a&logoColor=white" />
 </p>
 
 ---
 
-## 📊 Live LeetCode Performance Dashboard
+## ⚡ Live Analytics & Developer Stats
+
+> ⚠️ **Note:** To connect your live LeetCode stats, replace `YOUR_LEETCODE_USERNAME` with your exact LeetCode profile handle in the URLs below!
 
 <p align="center">
-  <!-- LeetCode Stats Card (Replace Harsh-tech8 if username is different) -->
-  <img src="https://leetcard.jacoblin.cool/Harsh-tech8?theme=dark&font=baloo&ext=activity" alt="LeetCode Stats" width="48%" />
-  <!-- LeetCode Heatmap Streak Card -->
-  <img src="https://leetcard.jacoblin.cool/Harsh-tech8?theme=dark&font=baloo&ext=heatmap" alt="LeetCode Heatmap" width="48%" />
+  <!-- LeetCode Stats Card -->
+  <img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=baloo&ext=activity" alt="LeetCode Stats" width="49%" />
+  <!-- GitHub Activity Stats -->
+  <img src="https://github-readme-stats.vercel.app/api?username=Harsh-tech8&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="49%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Harsh-tech8&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="98%" />
 </p>
 
 ---
 
-## 🧠 Repository Architecture & Index
+## 🧠 Solved Topic Master Index
 
-Each folder maps to specific core patterns tested rigorously in technical interviews at product-based companies.
+<details open>
+<summary><b>🔥 Basic to Advanced Topics Catalog (Click to Expand/Collapse)</b></summary>
+<br>
 
-| 📂 Module / Topic | 🔑 Key Patterns & Techniques Covered | 🚀 Difficulty Level |
-| :--- | :--- | :--- |
-| **[01. Arrays & Hashing](./Array%20&%20Hashing)** | Prefix Sum, Hash Maps, Frequency Counting, Kadane's Algorithm | Easy 🟢 / Medium 🟡 |
-| **[02. Two Pointers & Sliding Window](./Two%20Pointers)** | Fast & Slow Pointers, Fixed/Dynamic Window Sizes | Medium 🟡 |
-| **[03. Linked List](./Linked%20List)** | Reversal, Fast/Slow Pointer Cycle Detection, Merge Sort | Easy 🟢 / Medium 🟡 |
-| **[04. Stack & Queue](./Stack%20&%20Queue)** | Monotonic Stack, Next Greater Element, Sliding Window Maximum | Medium 🟡 / Hard 🔴 |
-| **[05. Binary Trees & BST](./Binary%20Trees)** | DFS (Pre/In/Post-order), BFS Level Order, LCA, BST Validation | Medium 🟡 / Hard 🔴 |
-| **[06. Heaps & Priority Queue](./Heaps)** | Top K Elements, Median Finder, Merge K Sorted Lists | Medium 🟡 / Hard 🔴 |
-| **[07. Recursion & Backtracking](./Backtracking)** | Subsets, Permutations, N-Queens, Sudoku Solver | Medium 🟡 / Hard 🔴 |
-| **[08. Dynamic Programming](./Dynamic%20Programming)** | 0/1 Knapsack, LCS, LIS, DP on Grids, Memoization & Tabulation | Hard 🔴 |
-| **[09. Graphs](./Graphs)** | BFS/DFS, Topological Sort, Dijkstra, Union-Find, MST | Hard 🔴 |
+| 📂 Category | 💡 Key Algorithms & Patterns | ⏱️ Time Complexity | 🎯 Status |
+| :--- | :--- | :---: | :---: |
+| **Array & Hashing** | Prefix Sum, Two Pointers, Frequency Maps, Kadane's | $O(N)$ | `COMPLETED` 🟢 |
+| **Two Pointers & Sliding Window** | Fixed/Variable Window, Fast & Slow Pointers | $O(N)$ | `IN PROGRESS` 🟡 |
+| **Stack & Queue** | Monotonic Stack, Next Greater Element, Min Stack | $O(N)$ | `IN PROGRESS` 🟡 |
+| **Linked List** | Fast/Slow Pointer Cycle Detection, Reversal, Merge Sort | $O(N)$ | `COMPLETED` 🟢 |
+| **Trees & BST** | DFS/BFS Traversal, LCA, Tree DP, Diameter | $O(N)$ | `IN PROGRESS` 🟡 |
+| **Heaps / Priority Queue** | Top K Elements, Two Heaps (Median Finder), K-way Merge | $O(N \log K)$ | `PLANNED` 🔵 |
+| **Backtracking & Recursion** | N-Queens, Subsets, Permutations, Sudoku Solver | $O(2^N) / O(N!)$ | `IN PROGRESS` 🟡 |
+| **Dynamic Programming** | 0/1 Knapsack, Unbounded Knapsack, LCS, LIS, Grids | $O(N \times W)$ | `PLANNED` 🔵 |
+| **Graphs** | BFS/DFS, Dijkstra, Topological Sort, Union-Find, MST | $O(V + E)$ | `PLANNED` 🔵 |
 
----
-
-## ⚡ Code Quality & Optimization Standard
-
-Every single solution committed to this repository follows rigid engineering standards:
-* **Optimal Complexity:** Prioritizing $O(N)$ or $O(N \log N)$ runtime and minimal auxiliary space.
-* **Clean Code Architecture:** Descriptive variable naming, modular structure, and clear edge-case handling.
-* **Inline Comments:** Explanation blocks for non-trivial logic (especially in DP and Graph algorithms).
+</details>
 
 ---
 
-## 🛠️ Quick Local Setup
+## 🛠️ Repository File Tree
 
-To clone and explore the code locally:
-
-```bash
-# Clone the repository
-git clone [https://github.com/Harsh-tech8/DSA-Leetcode.git](https://github.com/Harsh-tech8/DSA-Leetcode.git)
-
-# Navigate into the directory
-cd DSA-Leetcode
+```text
+📦 DSA-Leetcode
+ ┣ 📂 01-Arrays-and-Hashing
+ ┃ ┣ 📜 Two_Sum.cpp
+ ┃ ┣ 📜 Contains_Duplicate.cpp
+ ┃ ┗ 📜 README.md
+ ┣ 📂 02-Two-Pointers
+ ┃ ┣ 📜 Valid_Palindrome.cpp
+ ┃ ┗ 📜 Two_Sum_II.cpp
+ ┣ 📂 03-Sliding-Window
+ ┃ ┗ 📜 Best_Time_To_Buy_Sell_Stock.cpp
+ ┣ 📂 04-Stack-and-Queue
+ ┃ ┗ 📜 Valid_Parentheses.cpp
+ ┣ 📂 05-Binary-Search
+ ┃ ┗ 📜 Binary_Search.cpp
+ ┗ 📜 README.md
