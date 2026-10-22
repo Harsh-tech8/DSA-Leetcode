@@ -1,6 +1,6 @@
 <!-- Animated Modern Header Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,30&height=220&section=header&text=DSA%20%26%20LeetCode%20Mastery&fontSize=34&animation=fadeIn&fontColor=38BDF8&fontAlignY=38&desc=%E2%9A%A1%20Optimized%20Data%20Structures%20%26%20Algorithms%20Solutions&descSize=15&descAlignY=62" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,30&height=220&section=header&text=DSA%20%26%20LeetCode%20Command%20Center&fontSize=32&animation=fadeIn&fontColor=38BDF8&fontAlignY=38&desc=%E2%9A%A1%20Optimized%20Data%20Structures%20%26%20Algorithms%20Solutions&descSize=15&descAlignY=62" width="100%"/>
 </p>
 
 <!-- Typing Dynamic Text -->
@@ -25,11 +25,9 @@
 
 ## ⚡ Live Analytics & Developer Stats
 
-> ⚠️ **Note:** To connect your live LeetCode stats, replace `YOUR_LEETCODE_USERNAME` with your exact LeetCode profile handle in the URLs below!
-
 <p align="center">
-  <!-- LeetCode Stats Card -->
-  <img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=baloo&ext=activity" alt="LeetCode Stats" width="49%" />
+  <!-- Live LeetCode Stats Card (Connected via your correct handle: ZhH4Lmmegz) -->
+  <img src="https://leetcard.jacoblin.cool/ZhH4Lmmegz?theme=dark&font=baloo&ext=activity" alt="LeetCode Stats" width="49%" />
   <!-- GitHub Activity Stats -->
   <img src="https://github-readme-stats.vercel.app/api?username=Harsh-tech8&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="49%" />
 </p>
