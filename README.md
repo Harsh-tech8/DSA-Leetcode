@@ -1,95 +1,105 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2563EB&center=true&vCenter=true&width=800&lines=Data+Structures+%26+Algorithms;LeetCode+Problem+Solving;Learn.+Practice.+Improve." alt="Animated DSA heading" />
+<!-- Animated header -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=900&color=00D9FF&center=true&vCenter=true&width=850&lines=DSA+%7C+LeetCode+Solutions;One+Problem+at+a+Time;Think+%E2%80%A2+Code+%E2%80%A2+Optimize+%E2%80%A2+Repeat" alt="Animated typing header" />
 
-# DSA-Leetcode
+<br/>
 
-**A structured collection of LeetCode solutions for strengthening problem-solving skills and preparing for technical interviews.**
+<h1>⚡ DSA-Leetcode</h1>
 
-[![LeetCode](https://img.shields.io/badge/Practice-LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/)
-[![GitHub repo](https://img.shields.io/badge/Repository-GitHub-181717?style=flat-square&logo=github)](https://github.com/Harsh-tech8/DSA-Leetcode)
-[![Sync](https://img.shields.io/badge/Sync-LeetHub%20v2-2563EB?style=flat-square&logo=github)](https://github.com/arunbhardwaj/LeetHub-2.0)
-[![Focus](https://img.shields.io/badge/Focus-DSA%20%7C%20Problem%20Solving-0F766E?style=flat-square)](https://github.com/Harsh-tech8/DSA-Leetcode)
+<p><b>A growing collection of LeetCode solutions, algorithmic patterns, and problem-solving practice.</b></p>
 
-[Explore Solutions](#-solution-library) · [Topics](#-topics-covered) · [Workflow](#-problem-solving-workflow) · [Run Locally](#-work-with-this-repository)
+<p>
+  <img src="https://img.shields.io/badge/Platform-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  <img src="https://img.shields.io/badge/Focus-DSA-00D9FF?style=for-the-badge&logo=thealgorithms&logoColor=white" alt="DSA" />
+  <img src="https://img.shields.io/badge/Workflow-LeetHub%20v2-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="LeetHub v2" />
+  <img src="https://img.shields.io/badge/Status-Actively%20Learning-22C55E?style=for-the-badge" alt="Actively learning" />
+</p>
+
+<p>
+  <a href="#-about-the-repository">About</a> •
+  <a href="#-topic-map">Topics</a> •
+  <a href="#-repository-layout">Structure</a> •
+  <a href="#-how-to-use-this-repository">Getting Started</a> •
+  <a href="#-my-problem-solving-loop">My Approach</a>
+</p>
 
 </div>
 
 ---
 
-## 📌 About
+## 🧠 About the Repository
 
-This repository documents my ongoing practice with **Data Structures and Algorithms (DSA)** through LeetCode. Each solved problem is kept in its own numbered folder, making solutions easier to find, review, and revisit.
+Welcome to **DSA-Leetcode** — my coding practice space for building stronger problem-solving skills through LeetCode.
 
-The repository is synced using **LeetHub v2**. The goal is not simply to collect accepted submissions, but to develop a repeatable approach to breaking down problems, selecting suitable algorithms, handling edge cases, and understanding complexity.
+This repository collects solutions to problems I solve while learning and revising **Data Structures and Algorithms (DSA)**. Problems are stored in individual folders, generally named with their LeetCode number and title, making it easier to find a solution and revisit it later.
 
-### 🎯 Objectives
+The repository was created with **LeetHub v2**, which helps sync solved LeetCode problems to GitHub.
 
-- Build strong fundamentals in data structures and algorithms.
-- Recognize recurring problem-solving patterns.
-- Improve code correctness, readability, and efficiency.
-- Review previous solutions and learn from challenging problems.
-- Maintain a consistent record of technical interview preparation.
+### 🎯 What I’m working toward
 
----
+- 🧩 Strengthening logical thinking and algorithmic problem-solving.
+- 📚 Practising common data structures and algorithm patterns.
+- ⏱️ Learning to reason about time and space complexity.
+- 🔁 Revisiting solutions to improve understanding and implementation.
+- 💼 Building consistent preparation for coding assessments and technical interviews.
 
-## 📊 Repository at a Glance
-
-| Item | Details |
-|---|---|
-| Platform | LeetCode |
-| Repository format | One numbered folder per problem |
-| Organization | LeetCode problem IDs and titles |
-| Sync workflow | LeetHub v2 |
-| Main purpose | DSA practice and interview preparation |
-| Progress tracking | Committed solutions and repository history |
-
-> **Note:** The number of solutions changes as new problems are solved. This README avoids hard-coded totals so the information does not become misleading or outdated.
+> **The goal is progress, not just submission:** understand the idea, write a solution, analyze it, and learn from it.
 
 ---
 
-## 🧭 Topics Covered
+## 🗺️ Topic Map
 
-The existing repository's LeetCode topic index includes problems across the following areas. Topics can overlap because one problem may use several techniques.
+The repository currently includes problems across these areas. A problem may appear under more than one topic because many algorithms use multiple techniques.
 
-| Core area | Topics and patterns |
-|---|---|
-| **Arrays & Strings** | Arrays, matrices, strings, prefix sums, counting, simulation |
-| **Searching & Sorting** | Binary search, sorting, search in rotated arrays, order-based techniques |
-| **Pointers & Windows** | Two pointers, sliding-window-related problems |
-| **Hashing** | Hash tables, frequency counting |
-| **Linked Lists** | List traversal, reversal, cycle detection, doubly linked lists |
-| **Stacks & Queues** | Valid parentheses, monotonic-stack patterns, stack-based traversal |
-| **Trees & BSTs** | Tree traversal, validation, construction, ancestors, iterators |
-| **Graphs & Traversal** | Depth-first search (DFS), breadth-first search (BFS), matrix traversal, course scheduling |
-| **Recursion & Backtracking** | Permutations, subsets, combination sum, Sudoku, N-Queens |
-| **Dynamic Programming** | Fibonacci, maximum subarray, memoization, optimization patterns |
-| **Greedy & Math** | Greedy reasoning, number theory, prime-number problems |
-| **Bit Manipulation** | Bit-based operations and subset-related techniques |
-| **Design Problems** | Data-structure design, including LRU cache and minimum stack |
+<details open>
+<summary><b>🟢 Arrays, Strings & Fundamentals</b></summary>
 
-### 🔎 Explore representative solutions
+- Arrays and matrices
+- Strings and string manipulation
+- Hash tables and counting
+- Prefix sums
+- Two pointers
+- Sorting and searching
+- Binary search
+- Math and number theory
+- Bit manipulation
+- Simulation and enumeration
 
-These links point to problem folders that already exist in this repository:
+</details>
 
-- [0001 — Two Sum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/main/0001-two-sum)
-- [0011 — Container With Most Water](https://github.com/Harsh-tech8/DSA-Leetcode/tree/main/0011-container-with-most-water)
-- [0020 — Valid Parentheses](https://github.com/Harsh-tech8/DSA-Leetcode/tree/main/0020-valid-parentheses)
-- [0021 — Merge Two Sorted Lists](https://github.com/Harsh-tech8/DSA-Leetcode/tree/main/0021-merge-two-sorted-lists)
-- [0053 — Maximum Subarray](https://github.com/Harsh-tech8/DSA-Leetcode/tree/main/0053-maximum-subarray)
-- [0146 — LRU Cache](https://github.com/Harsh-tech8/DSA-Leetcode/tree/main/0146-lru-cache)
-- [0200 — Number of Islands](https://github.com/Harsh-tech8/DSA-Leetcode/tree/main/0200-number-of-islands)
-- [0207 — Course Schedule](https://github.com/Harsh-tech8/DSA-Leetcode/tree/main/0207-course-schedule)
-- [0704 — Binary Search](https://github.com/Harsh-tech8/DSA-Leetcode/tree/main/0704-binary-search)
-- [0994 — Rotting Oranges](https://github.com/Harsh-tech8/DSA-Leetcode/tree/main/0994-rotting-oranges)
+<details>
+<summary><b>🟡 Data Structures</b></summary>
 
-For the full topic-based list, use the **LeetCode Topics** section further down this README, generated from the repository's synced index.
+- Linked lists and doubly linked lists
+- Stacks
+- Binary trees and binary search trees
+- Tree traversal
+- Hash-based data structures
+- Design problems, including cache-style problems
+
+</details>
+
+<details>
+<summary><b>🔴 Algorithms & Problem-Solving Patterns</b></summary>
+
+- Recursion
+- Backtracking
+- Breadth-first search (BFS)
+- Depth-first search (DFS)
+- Greedy algorithms
+- Dynamic programming and memoization
+- Divide and conquer
+- Sliding-window-style and pointer techniques
+- Graph traversal and dependency problems
+
+</details>
 
 ---
 
-## 🗂️ Repository Structure
+## 📂 Repository Layout
 
-Problem folders use the LeetCode ID and title, for example:
+Each problem is stored in its own numbered folder. The exact files inside a folder depend on the solution synced from LeetCode.
 
 ```text
 DSA-Leetcode/
@@ -105,107 +115,129 @@ DSA-Leetcode/
 └── stats.json
 ```
 
-**How to read this structure**
+**Why use numbered folders?**
 
-- **Problem ID** — preserves the original LeetCode problem number.
-- **Problem title** — makes folders easy to recognize and search.
-- **Problem folder** — contains the files synced for that problem.
-- **`README.md`** — explains how to navigate and use the collection.
-- **`stats.json`** — repository metadata maintained by the sync workflow.
+- The problem number makes solutions easy to identify.
+- The title makes the folder readable at a glance.
+- Individual folders keep each problem’s files together.
+- The topic index below the repository overview helps connect problems to concepts.
 
-The tree above is an illustrative excerpt, not a complete file listing. Existing solution files and their language are intentionally left unchanged.
+*This is an illustrative excerpt, not the complete folder listing. The repository may grow as more problems are solved.*
 
 ---
 
-## 🔁 Problem-Solving Workflow
+## 🧭 How to Use This Repository
 
-```mermaid
-flowchart TD
-    A["1. Understand the problem"] --> B["2. Identify constraints and edge cases"]
-    B --> C["3. Choose a data structure or pattern"]
-    C --> D["4. Implement the solution"]
-    D --> E["5. Test sample and boundary cases"]
-    E --> F["6. Analyze time and space complexity"]
-    F --> G["7. Review and record the solution"]
-    G --> H["8. Revisit and solve independently"]
+1. **Choose a topic** you want to practise, such as arrays, trees, or dynamic programming.
+2. **Open a problem folder** using its LeetCode number or title.
+3. **Read the problem and attempt it yourself** before looking at the implementation.
+4. **Trace the solution** with a small example and check edge cases.
+5. **Analyze complexity** — identify the time and auxiliary space costs.
+6. **Revisit the problem later** and try to solve it again without looking at the code.
+
+### 🔍 Finding a problem
+
+Use GitHub’s repository search or your browser’s find feature (`Ctrl + F`) to search for a problem title, number, or topic in the README’s topic index.
+
+---
+
+## 🧪 Example Problems in This Collection
+
+| Problem | Main concept |
+|---|---|
+| [Two Sum](https://leetcode.com/problems/two-sum/) | Hash table |
+| [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Math and integer handling |
+| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Two pointers, greedy reasoning |
+| [3Sum](https://leetcode.com/problems/3sum/) | Sorting and two pointers |
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Stack |
+| [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Linked list |
+| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Dynamic programming / Kadane’s algorithm |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Graph traversal, DFS/BFS |
+| [Binary Search](https://leetcode.com/problems/binary-search/) | Binary search |
+| [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Dynamic programming |
+
+---
+
+## 🔄 My Problem-Solving Loop
+
+```text
+          ┌──────────────────┐
+          │ Understand problem│
+          └─────────┬────────┘
+                    ▼
+          ┌──────────────────┐
+          │ Find a simple idea│
+          └─────────┬────────┘
+                    ▼
+          ┌──────────────────┐
+          │ Code and test it  │
+          └─────────┬────────┘
+                    ▼
+          ┌──────────────────┐
+          │ Analyze complexity│
+          └─────────┬────────┘
+                    ▼
+          ┌──────────────────┐
+          │ Review and repeat │
+          └─────────┬────────┘
+                    └──────────────↺
 ```
 
-### ✅ Personal review checklist
-
-Before marking a problem as learned, I aim to check:
+### ✅ Before considering a problem learned
 
 - [ ] I can explain the approach in plain language.
-- [ ] I understand why the algorithm works.
-- [ ] I have considered edge cases and constraints.
-- [ ] I can estimate time and auxiliary space complexity.
-- [ ] I can implement the solution again without copying it.
-- [ ] I know which pattern could help solve similar problems.
+- [ ] I can work through a sample input by hand.
+- [ ] I have checked edge cases.
+- [ ] I understand the time and space complexity.
+- [ ] I can solve it again without copying the original solution.
 
 ---
 
-## 💻 Work With This Repository
+## 🛠️ Tools & Workflow
 
-### 1. Clone the repository
+<p>
+  <img src="https://img.shields.io/badge/LeetCode-Practice-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode" />
+  <img src="https://img.shields.io/badge/GitHub-Version%20Control-181717?style=flat-square&logo=github" alt="GitHub" />
+  <img src="https://img.shields.io/badge/LeetHub-v2-6C63FF?style=flat-square&logo=github" alt="LeetHub v2" />
+</p>
 
-```bash
-git clone https://github.com/Harsh-tech8/DSA-Leetcode.git
-cd DSA-Leetcode
-```
+- **LeetCode** — practise coding problems and learn new patterns.
+- **GitHub** — keep solutions versioned and accessible.
+- **LeetHub v2** — sync supported LeetCode submissions to the repository.
 
-### 2. Browse a solution
-
-Open a numbered problem folder, read the existing solution, and trace it with a small example. The language and file names depend on the synced problem files.
-
-### 3. Keep your local copy up to date
-
-```bash
-git pull origin main
-```
-
-### 4. Submit improvements
-
-If you make local changes and want to save them to your own repository:
-
-```bash
-git add .
-git commit -m "Update DSA practice"
-git push origin main
-```
-
-Only run the push commands after checking that your changes are ready and that your Git remote points to the correct repository.
+The solutions and file formats already in the repository are intended to remain unchanged; this README documents the collection rather than replacing existing code.
 
 ---
 
-## 🧰 Tools & Technologies
+## 🌱 Continuous Improvement
 
-- **LeetCode** — problem-solving practice.
-- **Git and GitHub** — version control and source-code hosting.
-- **LeetHub v2** — syncing supported submissions to GitHub.
-- **Markdown** — documentation and navigation.
+This repository is a learning log, so the collection can evolve over time. My focus is to:
 
----
-
-## 🚀 Ongoing Goals
-
-- Practise consistently across core DSA topics.
-- Improve the clarity and efficiency of solutions.
-- Revisit difficult problems and compare approaches.
-- Strengthen complexity analysis and edge-case handling.
-- Use this repository as evidence of consistent technical learning.
+- Solve problems consistently.
+- Improve clarity and correctness.
+- Learn multiple approaches where useful.
+- Record complexity and important edge cases.
+- Revisit difficult problems until the underlying pattern makes sense.
 
 ---
 
-## 🤝 Connect
+## 🤝 Connect & Explore
 
 <div align="center">
 
-**Harsh-tech8 · DSA Practice & Continuous Learning**
+**Explore the code and follow the journey.**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Harsh--tech8-181717?style=for-the-badge&logo=github)](https://github.com/Harsh-tech8)
-[![Repository](https://img.shields.io/badge/Explore-DSA--Leetcode-2563EB?style=for-the-badge&logo=github)](https://github.com/Harsh-tech8/DSA-Leetcode)
+<a href="https://github.com/Harsh-tech8/DSA-Leetcode">
+  <img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View repository" />
+</a>
+<a href="https://leetcode.com/">
+  <img src="https://img.shields.io/badge/Practice%20on-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="Practice on LeetCode" />
+</a>
 
-<sub>Understand the pattern. Solve the problem. Learn from the process.</sub>
+<br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,50:0F766E,100:111827&height=100&section=footer" alt="Decorative footer banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:6C63FF,100:111827&height=120&section=footer" alt="Decorative animated-style footer banner" />
+
+<sub>Built with consistency, curiosity, and a lot of debugging. 💙</sub>
 
 </div>
