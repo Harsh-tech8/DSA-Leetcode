@@ -1,436 +1,243 @@
-# DSA-Leetcode
-A collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
+<div align="center">
 
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0001-two-sum) |
-| [0011-container-with-most-water](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0011-container-with-most-water) |
-| [0015-3sum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0015-3sum) |
-| [0018-4sum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0018-4sum) |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
-| [0027-remove-element](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0027-remove-element) |
-| [0033-search-in-rotated-sorted-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
-| [0037-sudoku-solver](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0037-sudoku-solver) |
-| [0039-combination-sum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0039-combination-sum) |
-| [0046-permutations](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0046-permutations) |
-| [0051-n-queens](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0051-n-queens) |
-| [0053-maximum-subarray](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0053-maximum-subarray) |
-| [0054-spiral-matrix](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0054-spiral-matrix) |
-| [0074-search-a-2d-matrix](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0074-search-a-2d-matrix) |
-| [0075-sort-colors](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0075-sort-colors) |
-| [0078-subsets](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0078-subsets) |
-| [0084-largest-rectangle-in-histogram](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
-| [0088-merge-sorted-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0088-merge-sorted-array) |
-| [0090-subsets-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0090-subsets-ii) |
-| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
-| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
-| [0121-best-time-to-buy-and-sell-stock](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
-| [0134-gas-station](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0134-gas-station) |
-| [0169-majority-element](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0169-majority-element) |
-| [0200-number-of-islands](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0200-number-of-islands) |
-| [0204-count-primes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0204-count-primes) |
-| [0238-product-of-array-except-self](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0238-product-of-array-except-self) |
-| [0239-sliding-window-maximum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0239-sliding-window-maximum) |
-| [0240-search-a-2d-matrix-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
-| [0503-next-greater-element-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0503-next-greater-element-ii) |
-| [0540-single-element-in-a-sorted-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
-| [0560-subarray-sum-equals-k](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0560-subarray-sum-equals-k) |
-| [0704-binary-search](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0704-binary-search) |
-| [0733-flood-fill](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0733-flood-fill) |
-| [0852-peak-index-in-a-mountain-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
-| [0994-rotting-oranges](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0994-rotting-oranges) |
-| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
-| [2596-check-knight-tour-configuration](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/2596-check-knight-tour-configuration) |
-| [2965-find-missing-and-repeated-values](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/2965-find-missing-and-repeated-values) |
-## Prefix Sum
-|  |
-| ------- |
-| [0238-product-of-array-except-self](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0238-product-of-array-except-self) |
-| [0560-subarray-sum-equals-k](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0560-subarray-sum-equals-k) |
-## Two Pointers
-|  |
-| ------- |
-| [0011-container-with-most-water](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0011-container-with-most-water) |
-| [0015-3sum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0015-3sum) |
-| [0018-4sum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0018-4sum) |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
-| [0027-remove-element](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0027-remove-element) |
-| [0075-sort-colors](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0075-sort-colors) |
-| [0088-merge-sorted-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0088-merge-sorted-array) |
-| [0125-valid-palindrome](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0125-valid-palindrome) |
-| [0142-linked-list-cycle-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0142-linked-list-cycle-ii) |
-| [0151-reverse-words-in-a-string](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0151-reverse-words-in-a-string) |
-| [0344-reverse-string](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0344-reverse-string) |
-| [0876-middle-of-the-linked-list](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0876-middle-of-the-linked-list) |
-## Greedy
-|  |
-| ------- |
-| [0011-container-with-most-water](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0011-container-with-most-water) |
-| [0134-gas-station](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0134-gas-station) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0053-maximum-subarray](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0053-maximum-subarray) |
-| [0121-best-time-to-buy-and-sell-stock](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
-| [0131-palindrome-partitioning](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0131-palindrome-partitioning) |
-| [0509-fibonacci-number](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0509-fibonacci-number) |
-## Math
-|  |
-| ------- |
-| [0007-reverse-integer](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0007-reverse-integer) |
-| [0009-palindrome-number](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0009-palindrome-number) |
-| [0050-powx-n](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0050-powx-n) |
-| [0204-count-primes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0204-count-primes) |
-| [0509-fibonacci-number](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0509-fibonacci-number) |
-| [2965-find-missing-and-repeated-values](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/2965-find-missing-and-repeated-values) |
-## Recursion
-|  |
-| ------- |
-| [0021-merge-two-sorted-lists](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0021-merge-two-sorted-lists) |
-| [0024-swap-nodes-in-pairs](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0024-swap-nodes-in-pairs) |
-| [0025-reverse-nodes-in-k-group](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0025-reverse-nodes-in-k-group) |
-| [0050-powx-n](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0050-powx-n) |
-| [0206-reverse-linked-list](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0206-reverse-linked-list) |
-| [0509-fibonacci-number](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0509-fibonacci-number) |
-## Hash Table
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0001-two-sum) |
-| [0037-sudoku-solver](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0037-sudoku-solver) |
-| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
-| [0142-linked-list-cycle-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0142-linked-list-cycle-ii) |
-| [0146-lru-cache](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0146-lru-cache) |
-| [0169-majority-element](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0169-majority-element) |
-| [0387-first-unique-character-in-a-string](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0387-first-unique-character-in-a-string) |
-| [0560-subarray-sum-equals-k](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0560-subarray-sum-equals-k) |
-| [2965-find-missing-and-repeated-values](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/2965-find-missing-and-repeated-values) |
-## Divide and Conquer
-|  |
-| ------- |
-| [0053-maximum-subarray](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0053-maximum-subarray) |
-| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
-| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
-| [0169-majority-element](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0169-majority-element) |
-| [0240-search-a-2d-matrix-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
-## Sorting
-|  |
-| ------- |
-| [0015-3sum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0015-3sum) |
-| [0018-4sum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0018-4sum) |
-| [0075-sort-colors](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0075-sort-colors) |
-| [0088-merge-sorted-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0088-merge-sorted-array) |
-| [0169-majority-element](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0169-majority-element) |
-## Counting
-|  |
-| ------- |
-| [0169-majority-element](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0169-majority-element) |
-| [0387-first-unique-character-in-a-string](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0387-first-unique-character-in-a-string) |
-## Binary Search
-|  |
-| ------- |
-| [0033-search-in-rotated-sorted-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
-| [0074-search-a-2d-matrix](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0074-search-a-2d-matrix) |
-| [0240-search-a-2d-matrix-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
-| [0540-single-element-in-a-sorted-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
-| [0704-binary-search](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0704-binary-search) |
-| [0852-peak-index-in-a-mountain-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
-## Ternary Search
-|  |
-| ------- |
-| [0852-peak-index-in-a-mountain-array](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
-## Quicksort
-|  |
-| ------- |
-| [0075-sort-colors](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0075-sort-colors) |
-## Bubble Sort
-|  |
-| ------- |
-| [0075-sort-colors](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0075-sort-colors) |
-## String
-|  |
-| ------- |
-| [0020-valid-parentheses](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0020-valid-parentheses) |
-| [0058-length-of-last-word](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0058-length-of-last-word) |
-| [0125-valid-palindrome](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0125-valid-palindrome) |
-| [0131-palindrome-partitioning](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0131-palindrome-partitioning) |
-| [0151-reverse-words-in-a-string](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0151-reverse-words-in-a-string) |
-| [0257-binary-tree-paths](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0257-binary-tree-paths) |
-| [0344-reverse-string](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0344-reverse-string) |
-| [0387-first-unique-character-in-a-string](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0387-first-unique-character-in-a-string) |
-| [1910-remove-all-occurrences-of-a-substring](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
-## Stack
-|  |
-| ------- |
-| [0020-valid-parentheses](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0020-valid-parentheses) |
-| [0084-largest-rectangle-in-histogram](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
-| [0094-binary-tree-inorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
-| [0114-flatten-binary-tree-to-linked-list](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
-| [0155-min-stack](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0155-min-stack) |
-| [0173-binary-search-tree-iterator](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0173-binary-search-tree-iterator) |
-| [0503-next-greater-element-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0503-next-greater-element-ii) |
-| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
-| [1910-remove-all-occurrences-of-a-substring](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
-## Simulation
-|  |
-| ------- |
-| [0054-spiral-matrix](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0054-spiral-matrix) |
-| [1910-remove-all-occurrences-of-a-substring](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
-| [2596-check-knight-tour-configuration](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/2596-check-knight-tour-configuration) |
-## Enumeration
-|  |
-| ------- |
-| [0204-count-primes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0204-count-primes) |
-## Number Theory
-|  |
-| ------- |
-| [0204-count-primes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0204-count-primes) |
-## Primality Test
-|  |
-| ------- |
-| [0204-count-primes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0204-count-primes) |
-## Sieve Theory
-|  |
-| ------- |
-| [0204-count-primes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0204-count-primes) |
-## Prime Number Sieve
-|  |
-| ------- |
-| [0204-count-primes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0204-count-primes) |
-## Matrix
-|  |
-| ------- |
-| [0037-sudoku-solver](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0037-sudoku-solver) |
-| [0054-spiral-matrix](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0054-spiral-matrix) |
-| [0074-search-a-2d-matrix](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0074-search-a-2d-matrix) |
-| [0200-number-of-islands](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0200-number-of-islands) |
-| [0240-search-a-2d-matrix-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
-| [0733-flood-fill](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0733-flood-fill) |
-| [0994-rotting-oranges](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0994-rotting-oranges) |
-| [2596-check-knight-tour-configuration](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/2596-check-knight-tour-configuration) |
-| [2965-find-missing-and-repeated-values](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/2965-find-missing-and-repeated-values) |
-## Memoization
-|  |
-| ------- |
-| [0509-fibonacci-number](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0509-fibonacci-number) |
-## Backtracking
-|  |
-| ------- |
-| [0037-sudoku-solver](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0037-sudoku-solver) |
-| [0039-combination-sum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0039-combination-sum) |
-| [0046-permutations](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0046-permutations) |
-| [0051-n-queens](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0051-n-queens) |
-| [0078-subsets](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0078-subsets) |
-| [0090-subsets-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0090-subsets-ii) |
-| [0131-palindrome-partitioning](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0131-palindrome-partitioning) |
-| [0257-binary-tree-paths](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0257-binary-tree-paths) |
-## Bit Manipulation
-|  |
-| ------- |
-| [0078-subsets](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0078-subsets) |
-| [0090-subsets-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0090-subsets-ii) |
-## Algorithm X
-|  |
-| ------- |
-| [0037-sudoku-solver](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0037-sudoku-solver) |
-| [0051-n-queens](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0051-n-queens) |
-## Dancing Links
-|  |
-| ------- |
-| [0037-sudoku-solver](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0037-sudoku-solver) |
-## Depth-First Search
-|  |
-| ------- |
-| [0094-binary-tree-inorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
-| [0098-validate-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0098-validate-binary-search-tree) |
-| [0099-recover-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0099-recover-binary-search-tree) |
-| [0100-same-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0100-same-tree) |
-| [0114-flatten-binary-tree-to-linked-list](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
-| [0116-populating-next-right-pointers-in-each-node](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
-| [0200-number-of-islands](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0200-number-of-islands) |
-| [0207-course-schedule](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0207-course-schedule) |
-| [0210-course-schedule-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0210-course-schedule-ii) |
-| [0230-kth-smallest-element-in-a-bst](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
-| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
-| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
-| [0257-binary-tree-paths](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0257-binary-tree-paths) |
-| [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
-| [0543-diameter-of-binary-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0543-diameter-of-binary-tree) |
-| [0572-subtree-of-another-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0572-subtree-of-another-tree) |
-| [0662-maximum-width-of-binary-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
-| [0733-flood-fill](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0733-flood-fill) |
-| [0783-minimum-distance-between-bst-nodes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0783-minimum-distance-between-bst-nodes) |
-| [2596-check-knight-tour-configuration](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/2596-check-knight-tour-configuration) |
-## Breadth-First Search
-|  |
-| ------- |
-| [0100-same-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0100-same-tree) |
-| [0116-populating-next-right-pointers-in-each-node](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
-| [0200-number-of-islands](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0200-number-of-islands) |
-| [0207-course-schedule](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0207-course-schedule) |
-| [0210-course-schedule-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0210-course-schedule-ii) |
-| [0662-maximum-width-of-binary-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
-| [0733-flood-fill](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0733-flood-fill) |
-| [0783-minimum-distance-between-bst-nodes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0783-minimum-distance-between-bst-nodes) |
-| [0994-rotting-oranges](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0994-rotting-oranges) |
-| [2596-check-knight-tour-configuration](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/2596-check-knight-tour-configuration) |
-## Linked List
-|  |
-| ------- |
-| [0021-merge-two-sorted-lists](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0021-merge-two-sorted-lists) |
-| [0024-swap-nodes-in-pairs](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0024-swap-nodes-in-pairs) |
-| [0025-reverse-nodes-in-k-group](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0025-reverse-nodes-in-k-group) |
-| [0114-flatten-binary-tree-to-linked-list](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
-| [0116-populating-next-right-pointers-in-each-node](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
-| [0142-linked-list-cycle-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0142-linked-list-cycle-ii) |
-| [0146-lru-cache](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0146-lru-cache) |
-| [0206-reverse-linked-list](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0206-reverse-linked-list) |
-| [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
-| [0876-middle-of-the-linked-list](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0876-middle-of-the-linked-list) |
-## Doubly-Linked List
-|  |
-| ------- |
-| [0146-lru-cache](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0146-lru-cache) |
-| [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
-## Floyd's Cycle Finding Algorithm
-|  |
-| ------- |
-| [0142-linked-list-cycle-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0142-linked-list-cycle-ii) |
-## Bracket Sequences
-|  |
-| ------- |
-| [0020-valid-parentheses](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0020-valid-parentheses) |
-## Design
-|  |
-| ------- |
-| [0146-lru-cache](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0146-lru-cache) |
-| [0155-min-stack](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0155-min-stack) |
-| [0173-binary-search-tree-iterator](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0173-binary-search-tree-iterator) |
-## Monotonic Stack
-|  |
-| ------- |
-| [0084-largest-rectangle-in-histogram](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
-| [0503-next-greater-element-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0503-next-greater-element-ii) |
-| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
-## Range Minimum/Maximum Query
-|  |
-| ------- |
-| [0084-largest-rectangle-in-histogram](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
-| [0239-sliding-window-maximum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0239-sliding-window-maximum) |
-## Queue
-|  |
-| ------- |
-| [0239-sliding-window-maximum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0239-sliding-window-maximum) |
-| [0387-first-unique-character-in-a-string](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0387-first-unique-character-in-a-string) |
-## Sliding Window
-|  |
-| ------- |
-| [0239-sliding-window-maximum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0239-sliding-window-maximum) |
-## Heap (Priority Queue)
-|  |
-| ------- |
-| [0239-sliding-window-maximum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0239-sliding-window-maximum) |
-## Monotonic Queue
-|  |
-| ------- |
-| [0239-sliding-window-maximum](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0239-sliding-window-maximum) |
-## Tree
-|  |
-| ------- |
-| [0094-binary-tree-inorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
-| [0098-validate-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0098-validate-binary-search-tree) |
-| [0099-recover-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0099-recover-binary-search-tree) |
-| [0100-same-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0100-same-tree) |
-| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
-| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
-| [0114-flatten-binary-tree-to-linked-list](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
-| [0116-populating-next-right-pointers-in-each-node](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
-| [0173-binary-search-tree-iterator](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0173-binary-search-tree-iterator) |
-| [0230-kth-smallest-element-in-a-bst](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
-| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
-| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
-| [0257-binary-tree-paths](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0257-binary-tree-paths) |
-| [0543-diameter-of-binary-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0543-diameter-of-binary-tree) |
-| [0572-subtree-of-another-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0572-subtree-of-another-tree) |
-| [0662-maximum-width-of-binary-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
-| [0783-minimum-distance-between-bst-nodes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0783-minimum-distance-between-bst-nodes) |
-| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
-## Binary Tree
-|  |
-| ------- |
-| [0094-binary-tree-inorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
-| [0098-validate-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0098-validate-binary-search-tree) |
-| [0099-recover-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0099-recover-binary-search-tree) |
-| [0100-same-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0100-same-tree) |
-| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
-| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
-| [0114-flatten-binary-tree-to-linked-list](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
-| [0116-populating-next-right-pointers-in-each-node](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
-| [0173-binary-search-tree-iterator](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0173-binary-search-tree-iterator) |
-| [0230-kth-smallest-element-in-a-bst](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
-| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
-| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
-| [0257-binary-tree-paths](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0257-binary-tree-paths) |
-| [0543-diameter-of-binary-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0543-diameter-of-binary-tree) |
-| [0572-subtree-of-another-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0572-subtree-of-another-tree) |
-| [0662-maximum-width-of-binary-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
-| [0783-minimum-distance-between-bst-nodes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0783-minimum-distance-between-bst-nodes) |
-| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
-## String Matching
-|  |
-| ------- |
-| [0572-subtree-of-another-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0572-subtree-of-another-tree) |
-## Hash Function
-|  |
-| ------- |
-| [0572-subtree-of-another-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0572-subtree-of-another-tree) |
-## DP on Trees
-|  |
-| ------- |
-| [0543-diameter-of-binary-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0543-diameter-of-binary-tree) |
-## Binary Lifting
-|  |
-| ------- |
-| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
-| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
-## Lowest Common Ancestor
-|  |
-| ------- |
-| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
-| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
-## Binary Search Tree
-|  |
-| ------- |
-| [0098-validate-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0098-validate-binary-search-tree) |
-| [0099-recover-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0099-recover-binary-search-tree) |
-| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
-| [0173-binary-search-tree-iterator](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0173-binary-search-tree-iterator) |
-| [0230-kth-smallest-element-in-a-bst](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
-| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
-| [0783-minimum-distance-between-bst-nodes](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0783-minimum-distance-between-bst-nodes) |
-| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
-## Iterator
-|  |
-| ------- |
-| [0173-binary-search-tree-iterator](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0173-binary-search-tree-iterator) |
-## Union-Find
-|  |
-| ------- |
-| [0200-number-of-islands](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0200-number-of-islands) |
-## Graph Theory
-|  |
-| ------- |
-| [0207-course-schedule](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0207-course-schedule) |
-| [0210-course-schedule-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0210-course-schedule-ii) |
-## Topological Sort
-|  |
-| ------- |
-| [0207-course-schedule](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0207-course-schedule) |
-| [0210-course-schedule-ii](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0210-course-schedule-ii) |
-## Directed Acyclic Graph
-|  |
-| ------- |
-| [0207-course-schedule](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0207-course-schedule) |
-<!---LeetCode Topics End-->
+<!-- Animated header -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=900&color=00D9FF&center=true&vCenter=true&width=850&lines=DSA+%7C+LeetCode+Solutions;One+Problem+at+a+Time;Think+%E2%80%A2+Code+%E2%80%A2+Optimize+%E2%80%A2+Repeat" alt="Animated typing header" />
+
+<br/>
+
+<h1>⚡ DSA-Leetcode</h1>
+
+<p><b>A growing collection of LeetCode solutions, algorithmic patterns, and problem-solving practice.</b></p>
+
+<p>
+  <img src="https://img.shields.io/badge/Platform-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  <img src="https://img.shields.io/badge/Focus-DSA-00D9FF?style=for-the-badge&logo=thealgorithms&logoColor=white" alt="DSA" />
+  <img src="https://img.shields.io/badge/Workflow-LeetHub%20v2-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="LeetHub v2" />
+  <img src="https://img.shields.io/badge/Status-Actively%20Learning-22C55E?style=for-the-badge" alt="Actively learning" />
+</p>
+
+<p>
+  <a href="#-about-the-repository">About</a> •
+  <a href="#-topic-map">Topics</a> •
+  <a href="#-repository-layout">Structure</a> •
+  <a href="#-how-to-use-this-repository">Getting Started</a> •
+  <a href="#-my-problem-solving-loop">My Approach</a>
+</p>
+
+</div>
+
+---
+
+## 🧠 About the Repository
+
+Welcome to **DSA-Leetcode** — my coding practice space for building stronger problem-solving skills through LeetCode.
+
+This repository collects solutions to problems I solve while learning and revising **Data Structures and Algorithms (DSA)**. Problems are stored in individual folders, generally named with their LeetCode number and title, making it easier to find a solution and revisit it later.
+
+The repository was created with **LeetHub v2**, which helps sync solved LeetCode problems to GitHub.
+
+### 🎯 What I’m working toward
+
+- 🧩 Strengthening logical thinking and algorithmic problem-solving.
+- 📚 Practising common data structures and algorithm patterns.
+- ⏱️ Learning to reason about time and space complexity.
+- 🔁 Revisiting solutions to improve understanding and implementation.
+- 💼 Building consistent preparation for coding assessments and technical interviews.
+
+> **The goal is progress, not just submission:** understand the idea, write a solution, analyze it, and learn from it.
+
+---
+
+## 🗺️ Topic Map
+
+The repository currently includes problems across these areas. A problem may appear under more than one topic because many algorithms use multiple techniques.
+
+<details open>
+<summary><b>🟢 Arrays, Strings & Fundamentals</b></summary>
+
+- Arrays and matrices
+- Strings and string manipulation
+- Hash tables and counting
+- Prefix sums
+- Two pointers
+- Sorting and searching
+- Binary search
+- Math and number theory
+- Bit manipulation
+- Simulation and enumeration
+
+</details>
+
+<details>
+<summary><b>🟡 Data Structures</b></summary>
+
+- Linked lists and doubly linked lists
+- Stacks
+- Binary trees and binary search trees
+- Tree traversal
+- Hash-based data structures
+- Design problems, including cache-style problems
+
+</details>
+
+<details>
+<summary><b>🔴 Algorithms & Problem-Solving Patterns</b></summary>
+
+- Recursion
+- Backtracking
+- Breadth-first search (BFS)
+- Depth-first search (DFS)
+- Greedy algorithms
+- Dynamic programming and memoization
+- Divide and conquer
+- Sliding-window-style and pointer techniques
+- Graph traversal and dependency problems
+
+</details>
+
+---
+
+## 📂 Repository Layout
+
+Each problem is stored in its own numbered folder. The exact files inside a folder depend on the solution synced from LeetCode.
+
+```text
+DSA-Leetcode/
+├── 0001-two-sum/
+├── 0007-reverse-integer/
+├── 0009-palindrome-number/
+├── 0011-container-with-most-water/
+├── 0015-3sum/
+├── 0020-valid-parentheses/
+├── 0021-merge-two-sorted-lists/
+├── ...
+├── README.md
+└── stats.json
+```
+
+**Why use numbered folders?**
+
+- The problem number makes solutions easy to identify.
+- The title makes the folder readable at a glance.
+- Individual folders keep each problem’s files together.
+- The topic index below the repository overview helps connect problems to concepts.
+
+*This is an illustrative excerpt, not the complete folder listing. The repository may grow as more problems are solved.*
+
+---
+
+## 🧭 How to Use This Repository
+
+1. **Choose a topic** you want to practise, such as arrays, trees, or dynamic programming.
+2. **Open a problem folder** using its LeetCode number or title.
+3. **Read the problem and attempt it yourself** before looking at the implementation.
+4. **Trace the solution** with a small example and check edge cases.
+5. **Analyze complexity** — identify the time and auxiliary space costs.
+6. **Revisit the problem later** and try to solve it again without looking at the code.
+
+### 🔍 Finding a problem
+
+Use GitHub’s repository search or your browser’s find feature (`Ctrl + F`) to search for a problem title, number, or topic in the README’s topic index.
+
+---
+
+## 🧪 Example Problems in This Collection
+
+| Problem | Main concept |
+|---|---|
+| [Two Sum](https://leetcode.com/problems/two-sum/) | Hash table |
+| [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Math and integer handling |
+| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Two pointers, greedy reasoning |
+| [3Sum](https://leetcode.com/problems/3sum/) | Sorting and two pointers |
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Stack |
+| [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Linked list |
+| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Dynamic programming / Kadane’s algorithm |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Graph traversal, DFS/BFS |
+| [Binary Search](https://leetcode.com/problems/binary-search/) | Binary search |
+| [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Dynamic programming |
+
+---
+
+## 🔄 My Problem-Solving Loop
+
+```text
+          ┌──────────────────┐
+          │ Understand problem│
+          └─────────┬────────┘
+                    ▼
+          ┌──────────────────┐
+          │ Find a simple idea│
+          └─────────┬────────┘
+                    ▼
+          ┌──────────────────┐
+          │ Code and test it  │
+          └─────────┬────────┘
+                    ▼
+          ┌──────────────────┐
+          │ Analyze complexity│
+          └─────────┬────────┘
+                    ▼
+          ┌──────────────────┐
+          │ Review and repeat │
+          └─────────┬────────┘
+                    └──────────────↺
+```
+
+### ✅ Before considering a problem learned
+
+- [ ] I can explain the approach in plain language.
+- [ ] I can work through a sample input by hand.
+- [ ] I have checked edge cases.
+- [ ] I understand the time and space complexity.
+- [ ] I can solve it again without copying the original solution.
+
+---
+
+## 🛠️ Tools & Workflow
+
+<p>
+  <img src="https://img.shields.io/badge/LeetCode-Practice-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode" />
+  <img src="https://img.shields.io/badge/GitHub-Version%20Control-181717?style=flat-square&logo=github" alt="GitHub" />
+  <img src="https://img.shields.io/badge/LeetHub-v2-6C63FF?style=flat-square&logo=github" alt="LeetHub v2" />
+</p>
+
+- **LeetCode** — practise coding problems and learn new patterns.
+- **GitHub** — keep solutions versioned and accessible.
+- **LeetHub v2** — sync supported LeetCode submissions to the repository.
+
+The solutions and file formats already in the repository are intended to remain unchanged; this README documents the collection rather than replacing existing code.
+
+---
+
+## 🌱 Continuous Improvement
+
+This repository is a learning log, so the collection can evolve over time. My focus is to:
+
+- Solve problems consistently.
+- Improve clarity and correctness.
+- Learn multiple approaches where useful.
+- Record complexity and important edge cases.
+- Revisit difficult problems until the underlying pattern makes sense.
+
+---
+
+## 🤝 Connect & Explore
+
+<div align="center">
+
+**Explore the code and follow the journey.**
+
+<a href="https://github.com/Harsh-tech8/DSA-Leetcode">
+  <img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View repository" />
+</a>
+<a href="https://leetcode.com/">
+  <img src="https://img.shields.io/badge/Practice%20on-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="Practice on LeetCode" />
+</a>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:6C63FF,100:111827&height=120&section=footer" alt="Decorative animated-style footer banner" />
+
+<sub>Built with consistency, curiosity, and a lot of debugging. 💙</sub>
+
+</div>
