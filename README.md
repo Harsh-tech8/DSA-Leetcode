@@ -100,3 +100,23 @@
 <p align="center">
   <b>⭐ If this repository inspired your architecture or helped your prep, smash that star button!</b>
 </p>
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Depth-First Search
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0547-number-of-provinces) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0547-number-of-provinces) |
+## Union-Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0547-number-of-provinces) |
+## Graph Theory
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0547-number-of-provinces) |
+<!---LeetCode Topics End-->
