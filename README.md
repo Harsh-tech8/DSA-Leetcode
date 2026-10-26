@@ -115,10 +115,12 @@
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0547-number-of-provinces) |
+| [1584-min-cost-to-connect-all-points](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 ## Graph Theory
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0547-number-of-provinces) |
+| [1584-min-cost-to-connect-all-points](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 ## Hash Table
 |  |
 | ------- |
@@ -131,4 +133,24 @@
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0013-roman-to-integer) |
+## Array
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1584-min-cost-to-connect-all-points) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1584-min-cost-to-connect-all-points) |
+## Prim's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1584-min-cost-to-connect-all-points) |
+## Kruskal's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1584-min-cost-to-connect-all-points) |
+## Borůvka's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
