@@ -107,10 +107,12 @@
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0547-number-of-provinces) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0547-number-of-provinces) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Union-Find
 |  |
 | ------- |
@@ -120,6 +122,7 @@
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0547-number-of-provinces) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 ## Hash Table
 |  |
@@ -153,4 +156,16 @@
 |  |
 | ------- |
 | [1584-min-cost-to-connect-all-points](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1584-min-cost-to-connect-all-points) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
+## Shortest Path
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
