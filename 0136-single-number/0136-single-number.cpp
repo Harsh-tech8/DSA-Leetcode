@@ -1,10 +1,16 @@
 class Solution {
 public:
-    int singleNumber(vector<int>& nums) {
-        int result = 0;
+    int singleNumber(std::vector<int>& nums) {
+        unordered_set<int> seen;
+        
         for (int num : nums) {
-            result ^= num;
+            if (seen.find(num) != seen.end()) {
+                seen.erase(num);
+            } else {
+                seen.insert(num);
+            }
         }
-        return result;
+        
+        return *seen.begin();
     }
 };
