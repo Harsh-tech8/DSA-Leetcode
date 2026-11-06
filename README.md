@@ -106,6 +106,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0547-number-of-provinces](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0547-number-of-provinces) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1192-critical-connections-in-a-network](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1192-critical-connections-in-a-network) |
@@ -213,4 +214,16 @@
 |  |
 | ------- |
 | [0136-single-number](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0136-single-number) |
+## Stack
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
+## Tree
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 <!---LeetCode Topics End-->
