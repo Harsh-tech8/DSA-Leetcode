@@ -140,10 +140,12 @@
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0014-longest-common-prefix) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 ## Array
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0014-longest-common-prefix) |
 | [0136-single-number](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0136-single-number) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 ## Minimum Spanning Tree
@@ -226,4 +228,8 @@
 |  |
 | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
