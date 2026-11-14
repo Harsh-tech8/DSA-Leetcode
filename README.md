@@ -106,6 +106,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0101-symmetric-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0547-number-of-provinces](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0547-number-of-provinces) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -113,6 +114,7 @@
 ## Breadth-First Search
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0101-symmetric-tree) |
 | [0547-number-of-provinces](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0547-number-of-provinces) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Union-Find
@@ -223,10 +225,12 @@
 ## Tree
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0101-symmetric-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 ## Binary Tree
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0101-symmetric-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 ## Trie
 |  |
