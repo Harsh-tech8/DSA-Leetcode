@@ -133,11 +133,13 @@
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0013-roman-to-integer) |
+| [0202-happy-number](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0202-happy-number) |
 ## Math
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0013-roman-to-integer) |
 | [0069-sqrtx](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0069-sqrtx) |
+| [0202-happy-number](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0202-happy-number) |
 ## String
 |  |
 | ------- |
@@ -190,6 +192,7 @@
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0202-happy-number](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0202-happy-number) |
 ## String Matching
 |  |
 | ------- |
@@ -240,4 +243,8 @@
 |  |
 | ------- |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0083-remove-duplicates-from-sorted-list) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/Harsh-tech8/DSA-Leetcode/tree/master/0202-happy-number) |
 <!---LeetCode Topics End-->
